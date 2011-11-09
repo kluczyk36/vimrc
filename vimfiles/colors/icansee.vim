@@ -1,34 +1,12 @@
-" Vim color file tailored legibility on black background.
-"
-" Maintainer:   John Rhee  <jrhee75@gmail.com>
-" Last Change:  2005/10/18      v0.1
+" Original: John Rhee  <jrhee75@gmail.com>
+" Note: modified, I like it better this way. -pl
 
 hi clear
 set background=dark
-if exists("syntax_on")
-        syntax reset
-endif
-let g:colors_name = "icansee"
 
-"color settings for these terminal types:
-"Black          term=NONE cterm=NONE ctermfg=0 ctermbg=0
-"DarkRed        term=NONE cterm=NONE ctermfg=1 ctermbg=0
-"DarkGreen      term=NONE cterm=NONE ctermfg=2 ctermbg=0
-"Brown          term=NONE cterm=NONE ctermfg=3 ctermbg=0
-"DarkBlue       term=NONE cterm=NONE ctermfg=4 ctermbg=0
-"DarkMagenta    term=NONE cterm=NONE ctermfg=5 ctermbg=0
-"DarkCyan       term=NONE cterm=NONE ctermfg=6 ctermbg=0
-"Gray           term=NONE cterm=NONE ctermfg=7 ctermbg=0
-"DarkGray       term=NONE cterm=bold ctermfg=0 ctermbg=0
-"Red            term=NONE cterm=bold ctermfg=1 ctermbg=0
-"Green          term=NONE cterm=bold ctermfg=2 ctermbg=0
-"Yellow         term=NONE cterm=bold ctermfg=3 ctermbg=0
-"Blue           term=NONE cterm=bold ctermfg=4 ctermbg=0
-"Magenta        term=NONE cterm=bold ctermfg=5 ctermbg=0
-"Cyan           term=NONE cterm=bold ctermfg=6 ctermbg=0
-"White          term=NONE cterm=bold ctermfg=7 ctermbg=0
-    
-        
+if exists("syntax_on")
+    syntax reset
+endif
 
 hi Comment      guifg=DarkGray
 hi Constant     guifg=Cyan                      gui=NONE
@@ -59,3 +37,5 @@ hi Todo         guifg=White      guibg=#555500
 hi Type         guifg=Green                     gui=none
 hi Visual       guifg=White      guibg=DarkGreen
 hi WarningMsg   guifg=Red
+
+let g:colors_name = "icansee"

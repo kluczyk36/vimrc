@@ -7,6 +7,11 @@
 " Note: you can type :set number! to activate or deactivate the line numbering, wich also
 " looks similar to Director
 
+" Note: Original is not called 'print'. I don't remember what it's called.
+" Renamed because I use this scheme solely for printing, as I like
+" dark-background colour schemes better for screen (and paper tends to be
+" white, still). -pl
+
 set background=light
 hi clear
 if exists("syntax_on")
