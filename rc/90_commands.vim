@@ -4,3 +4,6 @@ if !exists(":DiffOrig")
             \ | wincmd p | diffthis
 endif
 
+if !exists(":PLReCfg")
+    command PLReCfg source $PL_VIMRC
+endif

@@ -9,7 +9,8 @@ let s:bundle_path  = s:this_path . '/bundles'
 let s:rc_path      = s:this_path . '/rc'
 let &runtimepath   = s:runtime_path . ',' . &runtimepath
 
-let $PL_VIM_PATH   = s:this_path . '/'
+let $PL_VIM_PATH   = s:this_path
+let $PL_VIMRC      = expand('<sfile>:p')
 
 call pathogen#infect(s:bundle_path)
 call vundle#rc(s:bundle_path)
