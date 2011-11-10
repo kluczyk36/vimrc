@@ -4,6 +4,7 @@ Bundle 'gmarik/vundle'
 
 " github
 Bundle 'sjl/gundo.vim'
+Bundle 'tpope/vim-surround'
 
 " vim-scripts
 Bundle 'slang_syntax'
@@ -14,3 +15,4 @@ Bundle 'oz.vim'
 Bundle 'utl.vim'
 Bundle 'ProtoDef'
 Bundle 'repeat.vim'
+Bundle 'vcscommand.vim'
