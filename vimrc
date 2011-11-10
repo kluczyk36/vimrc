@@ -3,14 +3,15 @@ scriptencoding utf-8
 set nocompatible
 
 " local variables and runtime path
-let s:this_path    = expand('<sfile>:p:h')
-let s:runtime_path = s:this_path . '/vimfiles'
-let s:bundle_path  = s:this_path . '/bundles'
-let s:rc_path      = s:this_path . '/rc'
-let &runtimepath   = s:runtime_path . ',' . &runtimepath
+let s:this_path     = expand('<sfile>:p:h')
+let s:runtime_path  = s:this_path . '/vimfiles'
+let s:bundle_path   = s:this_path . '/bundles'
+let s:rc_path       = s:this_path . '/rc'
+let &runtimepath    = s:runtime_path . ',' . &runtimepath
 
-let $PL_VIM_PATH   = s:this_path
-let $PL_VIMRC      = expand('<sfile>:p')
+let $PL_VIM_PATH    = s:this_path
+let $PL_VIMRC       = expand('<sfile>:p')
+let $PL_BUNDLE_PATH = s:bundle_path
 
 call pathogen#infect(s:bundle_path)
 call vundle#rc(s:bundle_path)

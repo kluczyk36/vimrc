@@ -12,4 +12,4 @@ let c_no_curly_error = 1
 set cinoptions+=l1,b1,g0,(s
 
 " pullproto location for protodef
-let g:protodefprotogetter = '$PL_VIM_PATH/pullproto.pl'
+let g:protodefprotogetter = '$PL_BUNDLE_PATH/ProtoDef/pullproto.pl'
