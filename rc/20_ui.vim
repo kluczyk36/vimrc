@@ -19,7 +19,8 @@ set laststatus=2
 
 " GUI tabline, right-hand scrollbar
 set guioptions=eR
-set guifont=Consolas:h13
+"set guifont=Consolas:h13
+set guifont=DejaVu\ Sans\ Mono:h11
 set linespace=0
 
 syntax on
