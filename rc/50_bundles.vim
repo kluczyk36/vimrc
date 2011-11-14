@@ -11,6 +11,7 @@ Bundle 'sjl/threesome.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'Rykka/ColorV'
+Bundle 'msanders/snipmate.vim'
 
 " vim-scripts
 Bundle 'slang_syntax'

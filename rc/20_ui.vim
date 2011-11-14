@@ -3,8 +3,9 @@ set nowrap
 set cmdheight=2
 
 " line numbers
-set number
+"set number
 set numberwidth=6
+set relativenumber
 
 " cursor position highlighting
 set cursorline
