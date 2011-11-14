@@ -14,3 +14,13 @@ nnoremap <silent> <F9> :TagbarToggle<CR>
 
 " gundo (F5 toggle)
 nnoremap <F5> :GundoToggle<CR>
+
+" yup
+inoremap <Up>    <NOP>
+inoremap <Down>  <NOP>
+inoremap <Left>  <NOP>
+inoremap <Right> <NOP>
+noremap  <Up>    <NOP>
+noremap  <Down>  <NOP>
+noremap  <Left>  <NOP>
+noremap  <Right> <NOP>
