@@ -11,7 +11,6 @@ Bundle 'sjl/threesome.vim'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'Rykka/ColorV'
-Bundle 'kevinw/pyflakes-vim'
 
 " vim-scripts
 Bundle 'slang_syntax'
