@@ -5,6 +5,7 @@ Bundle 'gmarik/vundle'
 " github
 Bundle 'sjl/gundo.vim'
 Bundle 'tpope/vim-surround'
+Bundle 'scrooloose/nerdtree'
 
 " vim-scripts
 Bundle 'slang_syntax'
@@ -14,5 +15,4 @@ Bundle 'Tagbar'
 Bundle 'oz.vim'
 Bundle 'utl.vim'
 Bundle 'ProtoDef'
-Bundle 'repeat.vim'
 Bundle 'vcscommand.vim'

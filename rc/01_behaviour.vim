@@ -1,5 +1,10 @@
 " vim: set ff=unix ft=vim fenc=utf-8:
-behave mswin
+set mousemodel=popup
+set selectmode=mouse
+set keymodel=
+set selection=exclusive
+
+set backspace=indent,eol,start
 
 set mouse=a
 set nomousehide
