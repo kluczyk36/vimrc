@@ -6,6 +6,7 @@ Bundle 'gmarik/vundle'
 Bundle 'sjl/gundo.vim'
 Bundle 'tpope/vim-surround'
 Bundle 'scrooloose/nerdtree'
+Bundle 'nathanaelkane/vim-indent-guides'
 
 " vim-scripts
 Bundle 'slang_syntax'

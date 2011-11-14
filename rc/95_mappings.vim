@@ -82,3 +82,7 @@ noremap l <NOP>
 
 " remap u in NERDTree to make above mapping work properly
 let NERDTreeMapUpdir='\u'
+
+" leaders
+let mapleader=','
+let maplocalleader='\'
