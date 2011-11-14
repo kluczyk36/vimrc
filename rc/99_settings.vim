@@ -18,3 +18,12 @@ let g:protodefprotogetter = '$PL_BUNDLE_PATH/ProtoDef/pullproto.pl'
 let g:indent_guides_start_level           = 2
 let g:indent_guides_guide_size            = 1
 let g:indent_guides_enable_on_vim_startup = 1
+
+" gundo
+let g:gundo_width = 60
+
+" EasyMotion
+let g:EasyMotion_leader_key = '<Leader>'
+
+" NERDTree
+let NERDTreeMapUpdir='\u'

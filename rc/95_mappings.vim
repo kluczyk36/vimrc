@@ -1,6 +1,10 @@
 " vim: set ff=unix ft=vim fenc=utf-8:
 " parts of this file are based on mswin.vim
 
+" leaders
+let mapleader=','
+let maplocalleader='\'
+
 " backspace in Visual mode deletes selection
 vnoremap <BS> d
 
@@ -55,14 +59,14 @@ onoremap <C-F4> <C-C><C-W>c
 " stop annyoing whitespace destroying behaviour
 inoremap <CR> <CR>x<BS>
 
-" spellchecking (F11 toggle)
-nnoremap <silent> <F11> :set spell!<CR>
+" spellchecking
+nnoremap <Leader>s :set spell!<CR>
 
-" tagbar (F9 toggle)
-nnoremap <silent> <F9> :TagbarToggle<CR>
+" tagbar
+nnoremap <Leader>l :TagbarToggle<CR>
 
-" gundo (F5 toggle)
-nnoremap <F5> :GundoToggle<CR>
+" gundo
+nnoremap <Leader>u :GundoToggle<CR>
 
 " yup
 inoremap <Up>    <NOP>
@@ -79,10 +83,3 @@ noremap  <Right> <NOP>
 noremap k l
 noremap u k
 noremap l <NOP>
-
-" remap u in NERDTree to make above mapping work properly
-let NERDTreeMapUpdir='\u'
-
-" leaders
-let mapleader=','
-let maplocalleader='\'
