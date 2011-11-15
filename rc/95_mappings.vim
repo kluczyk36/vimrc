@@ -81,5 +81,15 @@ noremap  <Right> <NOP>
 " make hjkl be more like arrows
 " remap u to mean 'up', k to mean 'right', and disable l
 noremap k l
-noremap u k
+noremap u gk
+noremap j gj
 noremap l <NOP>
+
+" quick nohls
+nnoremap <Leader><Space> :nohls<CR>
+
+" move to matching parens
+nnoremap <Tab> %
+vnoremap <Tab> %
+
+nnoremap ; :

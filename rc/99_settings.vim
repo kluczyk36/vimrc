@@ -27,3 +27,6 @@ let g:EasyMotion_leader_key = '<Leader>'
 
 " NERDTree
 let NERDTreeMapUpdir='\u'
+
+" Syntastic
+let g:syntastic_enable_signs=1

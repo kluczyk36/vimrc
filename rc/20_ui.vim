@@ -29,8 +29,17 @@ syntax on
 set nofoldenable
 
 set list
-set listchars=tab:>-,trail:·,extends:»,precedes:«,nbsp:⍽
+set listchars=tab:▸-,trail:·,extends:»,precedes:«,nbsp:⍽
 
 colorscheme icansee
 
-set statusline=%<#%n\ %F\ [%{&fileencoding}]\ [%{&fileformat}]\ %y%(\ %m%)%(\ %r%)%=%-14.(%l,%c%V%)\ %P
+set statusline=%<#%n\ %F
+set statusline+=\ [%{&fileencoding}]
+set statusline+=\ [%{&fileformat}]
+set statusline+=\ %y
+set statusline+=%(\ %#warningmsg#%{SyntasticStatuslineFlag()}%*%)
+set statusline+=%(\ %m%)
+set statusline+=%(\ %r%)
+set statusline+=%=
+set statusline+=%-14.(%l,%c%V%)
+set statusline+=\ %P

@@ -12,9 +12,13 @@ set nomousehide
 set nobackup
 set history=50
 set incsearch
+set ignorecase
+set smartcase
+set gdefault
 
 filetype plugin indent on
 autocmd FileType text setlocal textwidth=78
+autocmd FocusLost * :wa
 
 " indenting
 set tabstop=4
