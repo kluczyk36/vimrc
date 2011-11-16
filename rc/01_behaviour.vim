@@ -11,6 +11,9 @@ set nomousehide
 
 set nobackup
 set history=50
+set undolevels=1000
+set wildignore=*.swp,*.bak,*.pyc,*.pyo,*.exe,*.pdb,*.obj
+set wildmenu
 set incsearch
 set ignorecase
 set smartcase

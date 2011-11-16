@@ -93,3 +93,9 @@ nnoremap <Tab> %
 vnoremap <Tab> %
 
 nnoremap ; :
+
+" window nawigation with <C-uhjk>
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-u> <C-w>k
+map <C-k> <C-w>l
