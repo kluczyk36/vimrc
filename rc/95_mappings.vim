@@ -69,14 +69,22 @@ nnoremap <Leader>l :TagbarToggle<CR>
 nnoremap <Leader>u :GundoToggle<CR>
 
 " yup
-inoremap <Up>    <NOP>
-inoremap <Down>  <NOP>
-inoremap <Left>  <NOP>
-inoremap <Right> <NOP>
-noremap  <Up>    <NOP>
-noremap  <Down>  <NOP>
-noremap  <Left>  <NOP>
-noremap  <Right> <NOP>
+inoremap <Up>      <NOP>
+inoremap <Down>    <NOP>
+inoremap <Left>    <NOP>
+inoremap <Right>   <NOP>
+noremap  <Up>      <NOP>
+noremap  <Down>    <NOP>
+noremap  <Left>    <NOP>
+noremap  <Right>   <NOP>
+inoremap <C-Up>    <NOP>
+inoremap <C-Down>  <NOP>
+inoremap <C-Left>  <NOP>
+inoremap <C-Right> <NOP>
+noremap  <C-Up>    <NOP>
+noremap  <C-Down>  <NOP>
+noremap  <C-Left>  <NOP>
+noremap  <C-Right> <NOP>
 
 " make hjkl be more like arrows
 " remap u to mean 'up', k to mean 'right', and disable l
@@ -99,3 +107,12 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-u> <C-w>k
 map <C-k> <C-w>l
+
+" ,q to close current window
+noremap <Leader>q <C-W>c
+
+" ,W to clear trailing whitespace
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+" ,v to reselect pasted text
+nnoremap <leader>v V`]

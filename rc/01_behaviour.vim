@@ -33,3 +33,6 @@ set expandtab
 
 " swap file location
 set dir=.
+
+" file format
+set fileformats=unix,dos
