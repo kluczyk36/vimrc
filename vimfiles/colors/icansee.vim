@@ -38,4 +38,6 @@ hi Type         guifg=Green                     gui=none
 hi Visual       guifg=White      guibg=DarkGreen
 hi WarningMsg   guifg=Red
 
+hi User1        guifg=DarkRed    guibg=Grey
+
 let g:colors_name = "icansee"
