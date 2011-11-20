@@ -14,6 +14,7 @@ Bundle 'Rykka/ColorV'
 Bundle 'msanders/snipmate.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'thinca/vim-localrc'
+Bundle 'Raimondi/delimitMate'
 
 " vim-scripts
 Bundle 'slang_syntax'
