@@ -1,4 +1,4 @@
-" vim: set ff=unix ft=vim fenc=utf-8:
+
 " parts of this file are based on mswin.vim
 
 " leaders
@@ -102,17 +102,24 @@ vnoremap <Tab> %
 
 nnoremap ; :
 
-" window nawigation with <C-uhjk>
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-u> <C-w>k
-map <C-k> <C-w>l
-
-" ,q to close current window
-noremap <Leader>q <C-W>c
+" window navigation with <C-uhjk>
+" window movement with <A-uhjk>
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-u> <C-w>k
+noremap <C-k> <C-w>l
+noremap <A-h> <C-w>H
+noremap <A-j> <C-w>J
+noremap <A-u> <C-w>K
+noremap <A-k> <C-w>L
 
 " ,W to clear trailing whitespace
-nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+nnoremap <Leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 
 " ,v to reselect pasted text
-nnoremap <leader>v V`]
+nnoremap <Leader>v V`]
+
+" ,D to change cwd to current file's
+" \D to change local cwd to current file's
+nnoremap <Leader>D      :cd %:p:h<CR>
+nnoremap <LocalLeader>D :lcd %:p:h<CR>
