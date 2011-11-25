@@ -20,7 +20,7 @@ set smartcase
 set gdefault
 
 filetype plugin indent on
-autocmd FileType text setlocal textwidth=78
+"autocmd FileType text setlocal textwidth=78
 autocmd FocusLost * :wa
 
 " indenting
