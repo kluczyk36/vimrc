@@ -123,3 +123,10 @@ nnoremap <Leader>v V`]
 " \D to change local cwd to current file's
 nnoremap <Leader>D      :cd %:p:h<CR>
 nnoremap <LocalLeader>D :lcd %:p:h<CR>
+
+" kill ex mode
+nnoremap Q <NOP>
+nnoremap gQ <NOP>
+
+" autocomplete with <C-Space> in insert mode
+inoremap <C-Space> <C-n>

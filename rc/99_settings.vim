@@ -22,11 +22,5 @@ let g:indent_guides_enable_on_vim_startup = 1
 " gundo
 let g:gundo_width = 60
 
-" EasyMotion
-let g:EasyMotion_leader_key = '<Leader>'
-
 " NERDTree
 let NERDTreeMapUpdir='\u'
-
-" Syntastic
-let g:syntastic_enable_signs=1

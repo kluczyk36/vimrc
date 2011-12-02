@@ -2,6 +2,9 @@
 scriptencoding utf-8
 set nocompatible
 
+" remove all autocommands
+autocmd!
+
 " local variables and runtime path
 let s:this_path     = expand('<sfile>:p:h')
 let s:runtime_path  = s:this_path . '/vimfiles'
