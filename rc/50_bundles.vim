@@ -13,7 +13,6 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'Rykka/ColorV'
 Bundle 'msanders/snipmate.vim'
 Bundle 'thinca/vim-localrc'
-Bundle 'Raimondi/delimitMate'
 
 " vim-scripts
 Bundle 'slang_syntax'

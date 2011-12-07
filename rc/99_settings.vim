@@ -24,3 +24,6 @@ let g:gundo_width = 60
 
 " NERDTree
 let NERDTreeMapUpdir='\u'
+
+" PyFlakes
+let g:pyflakes_use_quickfix = 0
