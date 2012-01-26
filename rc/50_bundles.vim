@@ -13,6 +13,8 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'Rykka/ColorV'
 Bundle 'msanders/snipmate.vim'
 Bundle 'thinca/vim-localrc'
+Bundle 'Twinside/vim-haskellConceal'
+Bundle 'ehamberg/vim-cute-python'
 
 " vim-scripts
 Bundle 'slang_syntax'
