@@ -12,6 +12,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'Rykka/ColorV'
 Bundle 'thinca/vim-localrc'
 Bundle 'ehamberg/vim-cute-python'
+Bundle 'vim-ruby/vim-ruby'
 
 " vim-scripts
 Bundle 'Jinja'
