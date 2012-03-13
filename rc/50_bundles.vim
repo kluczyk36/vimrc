@@ -13,6 +13,7 @@ Bundle 'thinca/vim-localrc'
 Bundle 'ehamberg/vim-cute-python'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'tpope/vim-unimpaired'
 
 " vim-scripts
 Bundle 'Jinja'
