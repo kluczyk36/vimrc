@@ -14,6 +14,7 @@ Bundle 'ehamberg/vim-cute-python'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-unimpaired'
+Bundle 'tpope/vim-fugitive'
 
 " vim-scripts
 Bundle 'Jinja'
