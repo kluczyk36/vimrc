@@ -7,3 +7,7 @@ endif
 if !exists(":PLReCfg")
     command PLReCfg source $PL_VIMRC
 endif
+
+if !exists(":SOReformat")
+    command SOReformat :call SOReformat()
+endif
