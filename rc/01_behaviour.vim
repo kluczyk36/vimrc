@@ -22,6 +22,7 @@ set gdefault
 filetype plugin indent on
 "autocmd FileType text setlocal textwidth=78
 autocmd FocusLost * silent! wa
+autocmd BufReadPost fugitive://* set bufhidden=delete
 
 " indenting
 set tabstop=4
