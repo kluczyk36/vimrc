@@ -4,7 +4,6 @@ set sidescroll=1
 set cmdheight=2
 
 " line numbers
-"set number
 set numberwidth=6
 set relativenumber
 
@@ -21,8 +20,11 @@ set laststatus=2
 
 " GUI tabline, right-hand scrollbar
 set guioptions=eR
-"set guifont=Consolas:h13
-set guifont=DejaVu\ Sans\ Mono:h11
+if has("gui_win32")
+    set guifont=DejaVu_Sans_Mono:h11
+else
+    set guifont=DejaVu\ Sans\ Mono\ 11
+endif
 set linespace=0
 
 syntax on

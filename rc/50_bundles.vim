@@ -15,6 +15,7 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-fugitive'
+Bundle 'godlygeek/tabular'
 
 " vim-scripts
 Bundle 'Jinja'

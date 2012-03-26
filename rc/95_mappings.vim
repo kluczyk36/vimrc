@@ -1,4 +1,3 @@
-
 " parts of this file are based on mswin.vim
 
 " leaders
@@ -44,20 +43,11 @@ onoremap <C-A> <C-C>gggH<C-O>G
 snoremap <C-A> <C-C>gggH<C-O>G
 xnoremap <C-A> <C-C>ggVG
 
-" CTRL-Tab is Next window
-noremap  <C-Tab> <C-W>w
-inoremap <C-Tab> <C-O><C-W>w
-cnoremap <C-Tab> <C-C><C-W>w
-onoremap <C-Tab> <C-C><C-W>w
-
-" CTRL-F4 is Close window
-noremap  <C-F4> <C-W>c
-inoremap <C-F4> <C-O><C-W>c
-cnoremap <C-F4> <C-C><C-W>c
-onoremap <C-F4> <C-C><C-W>c
-
-" stop annyoing whitespace destroying behaviour
-inoremap <CR> <CR>x<BS>
+" CTRL-W, u is move up window-wise
+noremap  <C-W>u <C-W>k
+inoremap <C-W>u <C-O><C-W>k
+cnoremap <C-W>u <C-C><C-W>k
+onoremap <C-W>u <C-C><C-W>k
 
 " spellchecking
 nnoremap <Leader>s :set spell!<CR>
@@ -77,14 +67,18 @@ noremap  <Up>      <NOP>
 noremap  <Down>    <NOP>
 noremap  <Left>    <NOP>
 noremap  <Right>   <NOP>
-inoremap <C-Up>    <NOP>
-inoremap <C-Down>  <NOP>
 inoremap <C-Left>  <NOP>
 inoremap <C-Right> <NOP>
-noremap  <C-Up>    <NOP>
-noremap  <C-Down>  <NOP>
+inoremap <C-Up>    <NOP>
+inoremap <C-Down>  <NOP>
 noremap  <C-Left>  <NOP>
 noremap  <C-Right> <NOP>
+
+" text bubbling
+nmap <C-Up>   [e
+nmap <C-Down> ]e
+vmap <C-Up>   [egv
+vmap <C-Down> ]egv
 
 " make hjkl be more like arrows
 " remap u to mean 'up', k to mean 'right', and disable l
@@ -127,6 +121,3 @@ nnoremap <LocalLeader>D :lcd %:p:h<CR>
 " kill ex mode
 nnoremap Q <NOP>
 nnoremap gQ <NOP>
-
-" autocomplete with <C-Space> in insert mode
-inoremap <C-Space> <C-n>
