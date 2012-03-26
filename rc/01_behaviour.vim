@@ -20,7 +20,6 @@ set smartcase
 set gdefault
 
 filetype plugin indent on
-"autocmd FileType text setlocal textwidth=78
 autocmd FocusLost * silent! wa
 autocmd BufReadPost fugitive://* set bufhidden=delete
 
@@ -28,12 +27,15 @@ autocmd BufReadPost fugitive://* set bufhidden=delete
 set tabstop=4
 set shiftwidth=4
 set smarttab
-"set autoindent
 set smartindent
 set expandtab
 
 " swap file location
 set dir=.
+
+" persistent undo
+set undofile
+let &undodir = $PL_VIM_PATH . '/undo'
 
 " file format
 set fileformats=unix,dos

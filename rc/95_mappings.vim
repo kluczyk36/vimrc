@@ -121,3 +121,10 @@ nnoremap <LocalLeader>D :lcd %:p:h<CR>
 " kill ex mode
 nnoremap Q <NOP>
 nnoremap gQ <NOP>
+
+" %% — current file directory in command-line mode
+cnoremap %% <C-R>=expand('%:h').'/'<CR>
+" ,f — open file tree using %%
+" ,F — open file tree in cwd
+map <Leader>f :NERDTree %%<CR>
+map <Leader>F :NERDTree .<CR>

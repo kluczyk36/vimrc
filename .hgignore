@@ -3,3 +3,4 @@ syntax: glob
 .netrwhist
 *.pyc
 *.pyo
+undo/
