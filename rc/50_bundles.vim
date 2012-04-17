@@ -16,6 +16,8 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-fugitive'
 Bundle 'godlygeek/tabular'
+Bundle 'eagletmt/ghcmod-vim'
+Bundle 'ujihisa/neco-ghc'
 
 " vim-scripts
 Bundle 'Jinja'
