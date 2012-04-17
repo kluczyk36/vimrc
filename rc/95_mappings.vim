@@ -126,5 +126,22 @@ nnoremap gQ <NOP>
 cnoremap %% <C-R>=expand('%:h').'/'<CR>
 " ,f — open file tree using %%
 " ,F — open file tree in cwd
-map <Leader>f :NERDTree %%<CR>
-map <Leader>F :NERDTree .<CR>
+nmap <Leader>f :NERDTree %%<CR>
+nmap <Leader>F :NERDTree .<CR>
+
+" =a= to align on =
+" =a& to align on &
+nmap =a= :Tab /=<CR>
+nmap =a& :Tab /&<CR>
+
+" Kill Shift-j
+nnoremap <S-j> <NOP>
+vnoremap <S-j> <NOP>
+
+" number text object
+onoremap  n :<c-u>call PLNumberTextObject(0)<cr>
+xnoremap  n :<c-u>call PLNumberTextObject(0)<cr>
+onoremap an :<c-u>call PLNumberTextObject(1)<cr>
+xnoremap an :<c-u>call PLNumberTextObject(1)<cr>
+onoremap in :<c-u>call PLNumberTextObject(1)<cr>
+xnoremap in :<c-u>call PLNumberTextObject(1)<cr>

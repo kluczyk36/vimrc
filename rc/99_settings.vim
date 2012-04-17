@@ -23,7 +23,7 @@ let g:indent_guides_enable_on_vim_startup = 1
 let g:gundo_width = 60
 
 " NERDTree
-let NERDTreeMapUpdir='\u'
+let NERDTreeMapUpdir = '\u'
 
 " PyFlakes
 let g:pyflakes_use_quickfix = 0

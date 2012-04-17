@@ -11,6 +11,7 @@ let s:runtime_path  = s:this_path . '/vimfiles'
 let s:bundle_path   = s:this_path . '/bundles'
 let s:rc_path       = s:this_path . '/rc'
 let &runtimepath    = s:runtime_path . ',' . &runtimepath
+let g:vimball_home  = s:runtime_path
 
 let $PL_VIM_PATH    = s:this_path
 let $PL_VIMRC       = expand('<sfile>:p')

@@ -9,5 +9,5 @@ if !exists(":PLReCfg")
 endif
 
 if !exists(":SOReformat")
-    command SOReformat :call SOReformat()
+    command SOReformat :call PLSOReformat()
 endif
