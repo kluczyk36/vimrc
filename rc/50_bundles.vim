@@ -18,6 +18,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'godlygeek/tabular'
 Bundle 'eagletmt/ghcmod-vim'
 Bundle 'ujihisa/neco-ghc'
+Bundle 'Shougo/neocomplcache'
 
 " vim-scripts
 Bundle 'Jinja'

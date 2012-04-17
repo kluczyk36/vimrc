@@ -27,3 +27,6 @@ let NERDTreeMapUpdir = '\u'
 
 " PyFlakes
 let g:pyflakes_use_quickfix = 0
+
+" neocomplcache
+let g:neocomplcache_enable_at_startup = 1
