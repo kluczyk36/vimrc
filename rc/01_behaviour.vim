@@ -39,3 +39,6 @@ let &undodir = $PL_VIM_PATH . '/undo'
 
 " file format
 set fileformats=unix,dos
+
+" omnicomplete
+set ofu=syntaxcomplete#Complete

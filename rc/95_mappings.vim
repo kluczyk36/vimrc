@@ -145,3 +145,18 @@ onoremap an :<c-u>call PLNumberTextObject(1)<cr>
 xnoremap an :<c-u>call PLNumberTextObject(1)<cr>
 onoremap in :<c-u>call PLNumberTextObject(1)<cr>
 xnoremap in :<c-u>call PLNumberTextObject(1)<cr>
+
+" omnicomplete
+inoremap <C-Space> <C-x><C-o>
+
+" Haskell support:
+" ,ht -- :GhcModType
+" ,hT -- :GhcModTypeClear
+" ,hc -- :GhcModCheck
+" ,hl -- :GhcModLint
+" ,he -- :GhcModExpand
+nnoremap <Leader>ht :GhcModType<CR>
+nnoremap <Leader>hT :GhcModTypeClear<CR>
+nnoremap <Leader>hc :GhcModCheck<CR>
+nnoremap <Leader>hl :GhcModLint<CR>
+nnoremap <Leader>he :GhcModExpand<CR>
