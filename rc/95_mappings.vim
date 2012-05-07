@@ -44,10 +44,13 @@ snoremap <C-A> <C-C>gggH<C-O>G
 xnoremap <C-A> <C-C>ggVG
 
 " CTRL-W, u is move up window-wise
-noremap  <C-W>u <C-W>k
+" CTRL-W, k is move right
+nnoremap <C-W>u <C-W>k
 inoremap <C-W>u <C-O><C-W>k
-cnoremap <C-W>u <C-C><C-W>k
-onoremap <C-W>u <C-C><C-W>k
+nnoremap <C-W>k <C-W>l
+inoremap <C-W>k <C-O><C-W>l
+nnoremap <C-W>l <NOP>
+inoremap <C-W>l <NOP>
 
 " spellchecking
 nnoremap <Leader>s :set spell!<CR>

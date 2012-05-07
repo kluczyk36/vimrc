@@ -40,4 +40,6 @@ hi WarningMsg   guifg=Red
 
 hi User1        guifg=DarkRed    guibg=Grey
 
+hi Pmenu                         guibg=Brown
+
 let g:colors_name = "icansee"
