@@ -134,8 +134,13 @@ nmap <Leader>F :NERDTree .<CR>
 
 " =a= to align on =
 " =a& to align on &
+" =a: to align after :
 nmap =a= :Tab /=<CR>
+vmap =a= :Tab /=<CR>
 nmap =a& :Tab /&<CR>
+vmap =a& :Tab /&<CR>
+nmap =a: :Tab /:\zs/l0l1<CR>
+vmap =a: :Tab /:\zs/l0l1<CR>
 
 " Kill Shift-j
 nnoremap <S-j> <NOP>
@@ -163,3 +168,6 @@ nnoremap <Leader>hT :GhcModTypeClear<CR>
 nnoremap <Leader>hc :GhcModCheck<CR>
 nnoremap <Leader>hl :GhcModLint<CR>
 nnoremap <Leader>he :GhcModExpand<CR>
+
+" don't move the cursor after exiting insert mode
+inoremap <Esc> <Esc>g`^
