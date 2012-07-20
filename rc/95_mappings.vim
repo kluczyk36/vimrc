@@ -135,12 +135,15 @@ nmap <Leader>F :NERDTree .<CR>
 " =a= to align on =
 " =a& to align on &
 " =a: to align after :
+" =a, to align after ,
 nmap =a= :Tab /=<CR>
 vmap =a= :Tab /=<CR>
 nmap =a& :Tab /&<CR>
 vmap =a& :Tab /&<CR>
 nmap =a: :Tab /:\zs/l0l1<CR>
 vmap =a: :Tab /:\zs/l0l1<CR>
+nmap =a, :Tab /,\zs/l0l1<CR>
+vmap =a, :Tab /,\zs/l0l1<CR>
 
 " Kill Shift-j
 nnoremap <S-j> <NOP>
