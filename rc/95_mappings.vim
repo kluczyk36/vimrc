@@ -17,7 +17,6 @@ cmap     <C-V> <C-R>+
 " Visual mode without the +virtualedit feature.  They are pasted as if they
 " were characterwise instead.
 " Uses the paste.vim autoload script.
-
 exe 'inoremap <script> <C-V>' paste#paste_cmd['i']
 exe 'vnoremap <script> <C-V>' paste#paste_cmd['v']
 
@@ -61,15 +60,7 @@ nnoremap <Leader>l :TagbarToggle<CR>
 " gundo
 nnoremap <Leader>u :GundoToggle<CR>
 
-" yup
-inoremap <Up>      <NOP>
-inoremap <Down>    <NOP>
-inoremap <Left>    <NOP>
-inoremap <Right>   <NOP>
-noremap  <Up>      <NOP>
-noremap  <Down>    <NOP>
-noremap  <Left>    <NOP>
-noremap  <Right>   <NOP>
+" arrow keys (not all of them though)
 inoremap <C-Left>  <NOP>
 inoremap <C-Right> <NOP>
 inoremap <C-Up>    <NOP>
@@ -148,14 +139,6 @@ vmap =a, :Tab /,\zs/l0l1<CR>
 " Kill Shift-j
 nnoremap <S-j> <NOP>
 vnoremap <S-j> <NOP>
-
-" number text object
-onoremap  n :<c-u>call PLNumberTextObject(0)<cr>
-xnoremap  n :<c-u>call PLNumberTextObject(0)<cr>
-onoremap an :<c-u>call PLNumberTextObject(1)<cr>
-xnoremap an :<c-u>call PLNumberTextObject(1)<cr>
-onoremap in :<c-u>call PLNumberTextObject(1)<cr>
-xnoremap in :<c-u>call PLNumberTextObject(1)<cr>
 
 " omnicomplete
 inoremap <C-Space> <C-x><C-o>
