@@ -19,6 +19,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'eagletmt/ghcmod-vim'
 Bundle 'ujihisa/neco-ghc'
 Bundle 'leshill/vim-json'
+Bundle 'Lokaltog/vim-powerline'
 
 " vim-scripts
 Bundle 'Jinja'

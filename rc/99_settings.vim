@@ -27,3 +27,11 @@ let NERDTreeMapUpdir = '\u'
 
 " PyFlakes
 let g:pyflakes_use_quickfix = 0
+
+" Powerline
+if has("gui_running")
+    let g:Powerline_symbols = 'fancy'
+else
+    let g:Powerline_symbols = 'compatible'
+end
+let g:Powerline_cache_dir = $PL_VIM_PATH . '/cache/'

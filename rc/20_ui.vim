@@ -21,9 +21,9 @@ set laststatus=2
 " GUI tabline, right-hand scrollbar
 set guioptions=eR
 if has("gui_win32")
-    set guifont=DejaVu_Sans_Mono:h11
+    set guifont=DejaVu_Sans_Mono_for_Powerline:h11
 else
-    set guifont=DejaVu\ Sans\ Mono\ 11
+    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 11
 endif
 set linespace=0
 
