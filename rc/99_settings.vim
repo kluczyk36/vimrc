@@ -35,3 +35,9 @@ else
     let g:Powerline_symbols = 'compatible'
 end
 let g:Powerline_cache_dir = $PL_VIM_PATH . '/cache/'
+
+" FuzzyFinder
+let g:fuf_dataDir = $PL_VIM_PATH . '/cache/fuf/'
+let g:fuf_keyOpenTabpage = '<CR>'
+let g:fuf_keyOpen = '<C-l>'
+let g:fuf_modesDisable = ['mrufile', 'mrucmd', 'bookmarkfile', 'bookmarkdir', 'tag', 'buffertag', 'taggedfile', 'jumplist', 'changelist', 'quickfix', 'line']

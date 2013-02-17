@@ -157,3 +157,8 @@ nnoremap <Leader>he :GhcModExpand<CR>
 
 " don't move the cursor after exiting insert mode
 inoremap <Esc> <Esc>g`^
+
+" FuzzyFinder
+" Ctrl+O opens a file
+map <C-O> :FufCoverageFile<CR>
+
