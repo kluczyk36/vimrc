@@ -30,3 +30,6 @@ Bundle 'utl.vim'
 Bundle 'matchit.zip'
 Bundle 'ShowMarks'
 Bundle 'a.vim'
+Bundle 'L9'
+" FuzzyFinder requires L9
+Bundle 'FuzzyFinder'
