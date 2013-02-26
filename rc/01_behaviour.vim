@@ -29,6 +29,7 @@ set shiftwidth=4
 set smarttab
 set smartindent
 set expandtab
+set shiftround
 
 " swap file location
 set dir=.
