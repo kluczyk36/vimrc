@@ -1,7 +1,7 @@
 " vim: set ff=unix ft=vim fenc=utf-8:
 set nowrap
 set sidescroll=1
-set cmdheight=2
+set cmdheight=1
 
 " line numbers
 set numberwidth=6

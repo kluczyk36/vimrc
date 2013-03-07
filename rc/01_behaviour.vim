@@ -19,6 +19,8 @@ set ignorecase
 set smartcase
 set gdefault
 
+set clipboard+="unnamedplus"
+
 filetype plugin indent on
 autocmd FocusLost * silent! wa
 autocmd BufReadPost fugitive://* set bufhidden=delete
