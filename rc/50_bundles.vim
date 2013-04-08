@@ -21,6 +21,7 @@ Bundle 'ujihisa/neco-ghc'
 Bundle 'leshill/vim-json'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'coderifous/textobj-word-column.vim'
+Bundle 'paradigm/TextObjectify'
 
 " vim-scripts
 Bundle 'Jinja'
