@@ -20,6 +20,7 @@ Bundle 'eagletmt/ghcmod-vim'
 Bundle 'ujihisa/neco-ghc'
 Bundle 'leshill/vim-json'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'coderifous/textobj-word-column.vim'
 
 " vim-scripts
 Bundle 'Jinja'
