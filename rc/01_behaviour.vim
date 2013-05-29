@@ -19,12 +19,6 @@ set ignorecase
 set smartcase
 set gdefault
 
-if has("unnamedplus")
-    set clipboard+=unnamedplus
-else
-    set clipboard+=unnamed
-end
-
 filetype plugin indent on
 autocmd FocusLost * silent! wa
 autocmd BufReadPost fugitive://* set bufhidden=delete
