@@ -21,9 +21,9 @@ set laststatus=2
 " e = tabline
 set guioptions=e
 if has("gui_win32")
-    set guifont=DejaVu_Sans_Mono_for_Powerline:h11
+    set guifont=DejaVu_Sans_Mono_for_Powerline:h12
 else
-    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 11
+    set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 12
 endif
 set linespace=0
 
