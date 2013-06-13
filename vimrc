@@ -18,9 +18,8 @@ let $PL_VIMRC       = expand('<sfile>:p')
 let $PL_BUNDLE_PATH = s:bundle_path
 
 call pathogen#infect(s:bundle_path)
-call vundle#rc(s:bundle_path)
 
-let &runtimepath   .= ',' . s:runtime_path . '/after'
+let &runtimepath .= ',' . s:runtime_path . '/after'
 
 let s:rc_files = split(glob(s:rc_path.'/*.vim'), '\n')
 for rc_file in s:rc_files
