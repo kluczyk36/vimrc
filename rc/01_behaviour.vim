@@ -21,18 +21,19 @@ set gdefault
 
 filetype plugin indent on
 autocmd FocusLost * silent! wa
-autocmd BufReadPost fugitive://* set bufhidden=delete
 
 " indenting
 set tabstop=4
 set shiftwidth=4
 set smarttab
-set smartindent
+set autoindent
 set expandtab
 set shiftround
 
 " swap file location
-set dir=.
+" // at the end makes vim preserve the full name (replacing slashes with
+" percents, as in undodir)
+let &dir = $PL_VIM_PATH . '/swap//'
 
 " persistent undo
 set undofile

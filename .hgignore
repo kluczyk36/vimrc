@@ -1,8 +1,7 @@
 syntax: glob
-*.swp
-.netrwhist
-*.pyc
-*.pyo
+*.sw?
+*.py[co]
 undo/
 cache/
-rc/99_local_settings.vim
+swap/
+rc/*_local_settings.vim
