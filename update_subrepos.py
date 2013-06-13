@@ -15,7 +15,7 @@ for subrepo in subrepos:
 
     if os.path.exists(dir):
         print(' * Updating {0}'.format(dir))
-        git_cmd    = ['pull', 'origin', 'master']
+        git_cmd    = ['pull', '--depth', '1']
         switch_dir = True
     else:
         print(' * Cloning {0}'.format(dir))
