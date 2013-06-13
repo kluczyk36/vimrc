@@ -16,3 +16,4 @@ bundles/tagbar = [git]git://github.com/vim-scripts/Tagbar
 bundles/showmarks = [git]git://github.com/vim-scripts/ShowMarks
 bundles/l9 = [git]git://github.com/vim-scripts/L9
 bundles/fuzzyfinder = [git]git://github.com/vim-scripts/FuzzyFinder
+bundles/solarized = [git]git://github.com/altercation/vim-colors-solarized.git

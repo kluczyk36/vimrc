@@ -18,8 +18,8 @@ set hlsearch
 set showtabline=2
 set laststatus=2
 
-" GUI tabline, right-hand scrollbar
-set guioptions=eR
+" e = tabline
+set guioptions=e
 if has("gui_win32")
     set guifont=DejaVu_Sans_Mono_for_Powerline:h11
 else
@@ -34,4 +34,4 @@ set nofoldenable
 set list
 set listchars=tab:▸-,trail:·,extends:»,precedes:«,nbsp:⍽
 
-colorscheme icansee
+colorscheme solarized
