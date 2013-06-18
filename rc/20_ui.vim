@@ -34,4 +34,4 @@ set nofoldenable
 set list
 set listchars=tab:▸-,trail:·,extends:»,precedes:«,nbsp:⍽
 
-colorscheme solarized
+colorscheme icansee
