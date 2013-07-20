@@ -1,4 +1,0 @@
-" used by update_subrepos.py
-source vimrc
-call pathogen#helptags()
-quit!

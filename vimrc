@@ -18,6 +18,7 @@ let $PL_VIMRC       = expand('<sfile>:p')
 let $PL_BUNDLE_PATH = s:bundle_path
 
 call pathogen#infect(s:bundle_path)
+call pathogen#helptags()
 
 let &runtimepath .= ',' . s:runtime_path . '/after'
 
