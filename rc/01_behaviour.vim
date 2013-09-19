@@ -16,7 +16,6 @@ set wildignore=*.swp,*.bak,*.pyc,*.pyo,*.exe,*.pdb,*.obj
 set wildmenu
 set incsearch
 set ignorecase
-set smartcase
 set gdefault
 
 filetype plugin indent on
