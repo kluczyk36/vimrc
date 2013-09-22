@@ -6,8 +6,10 @@ set selection=exclusive
 
 set backspace=indent,eol,start
 
-set mouse=a
-set nomousehide
+if has('gui')
+    set mouse=a
+    set nomousehide
+end
 
 set nobackup
 set history=50
