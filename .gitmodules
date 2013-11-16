@@ -58,10 +58,6 @@
 	path = bundles/tagbar
 	url = git://github.com/vim-scripts/Tagbar
 	ignore = dirty
-[submodule "bundles/showmarks"]
-	path = bundles/showmarks
-	url = git://github.com/vim-scripts/ShowMarks
-	ignore = dirty
 [submodule "bundles/l9"]
 	path = bundles/l9
 	url = git://github.com/vim-scripts/L9

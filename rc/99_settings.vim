@@ -41,7 +41,3 @@ end
 let g:fuf_keyOpenTabpage = '<CR>'
 let g:fuf_keyOpen = '<C-l>'
 let g:fuf_modesDisable = ['mrufile', 'mrucmd', 'bookmarkfile', 'bookmarkdir', 'tag', 'buffertag', 'taggedfile', 'jumplist', 'changelist', 'quickfix', 'line']
-
-" showmarks
-let g:showmarks_include = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.'`^<>[]\""
-let g:showmarks_hlline_lower = 1
