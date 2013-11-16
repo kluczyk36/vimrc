@@ -1,5 +1,7 @@
 " vim: set ff=unix ft=vim fenc=utf-8:
 scriptencoding utf-8
+set encoding=utf-8
+set termencoding=utf-8
 set nocompatible
 
 " remove all autocommands

@@ -4,3 +4,4 @@ undo/
 cache/
 swap/
 rc/*_local_settings.vim
+rc/02_environment.vim

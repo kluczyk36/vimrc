@@ -1,0 +1,10 @@
+" vim: set ff=unix ft=vim fenc=utf-8:
+
+" used environments:
+"   'desktop'
+"       default, all settings in effect
+"   'server'
+"       disables settings related to writeable locations, like undodir
+"       meant for global server installation, where settings would be
+"       somewhere in /etc, and therefore not writeable by users
+let g:pl_environment = "server"

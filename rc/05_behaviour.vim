@@ -1,9 +1,9 @@
 " vim: set ff=unix ft=vim fenc=utf-8:
+
+" keyboard/mouse
 set mousemodel=popup
 set selectmode=mouse
 set keymodel=
-set selection=exclusive
-
 set backspace=indent,eol,start
 
 if has('gui')
@@ -11,17 +11,19 @@ if has('gui')
     set nomousehide
 end
 
-set nobackup
+" command line
 set history=50
-set undolevels=1000
 set wildignore=*.swp,*.bak,*.pyc,*.pyo,*.exe,*.pdb,*.obj
 set wildmenu
+
+" search/replace
 set incsearch
 set ignorecase
 set gdefault
 
-filetype plugin indent on
-autocmd FocusLost * silent! wa
+" reading files
+set fileformats=unix,dos
+set modeline
 
 " indenting
 set tabstop=4
@@ -34,14 +36,20 @@ set shiftround
 " swap file location
 " // at the end makes vim preserve the full name (replacing slashes with
 " percents, as in undodir)
-let &dir = $PL_VIM_PATH . '/swap//'
+if g:pl_environment == 'desktop'
+    let &dir = $PL_VIM_PATH . '/swap//'
+end
 
-" persistent undo
-set undofile
-let &undodir = $PL_VIM_PATH . '/undo'
+" undo/backup
+set nobackup
+set undolevels=1000
+if g:pl_environment == 'desktop'
+    set undofile
+    let &undodir = $PL_VIM_PATH . '/undo'
+end
 
-" file format
-set fileformats=unix,dos
-
-" omnicomplete
+" misc
 set ofu=syntaxcomplete#Complete
+set selection=exclusive
+autocmd FocusLost * silent! wa
+filetype plugin indent on
