@@ -8,8 +8,10 @@ set numberwidth=6
 set relativenumber
 
 " cursor position highlighting
-set cursorline
-set cursorcolumn
+if g:pl_environment == 'desktop'
+    set cursorline
+    set cursorcolumn
+end
 
 set showcmd
 set hlsearch
