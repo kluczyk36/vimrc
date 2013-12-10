@@ -5,6 +5,7 @@ set cmdheight=1
 
 " line numbers
 set numberwidth=6
+set number
 set relativenumber
 
 " cursor position highlighting
