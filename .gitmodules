@@ -58,23 +58,7 @@
 	path = bundles/tagbar
 	url = git://github.com/vim-scripts/Tagbar
 	ignore = dirty
-[submodule "bundles/l9"]
-	path = bundles/l9
-	url = git://github.com/vim-scripts/L9
-	ignore = dirty
-[submodule "bundles/fuzzyfinder"]
-	path = bundles/fuzzyfinder
-	url = git://github.com/vim-scripts/FuzzyFinder
-	ignore = dirty
-[submodule "bundles/solarized"]
-	path = bundles/solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-	ignore = dirty
 [submodule "bundles/vim-ps1"]
 	path = bundles/vim-ps1
 	url = git://github.com/PProvost/vim-ps1.git
-	ignore = dirty
-[submodule "bundles/vim-ledger"]
-	path = bundles/vim-ledger
-	url = https://github.com/ledger/vim-ledger
 	ignore = dirty
