@@ -62,3 +62,7 @@
 	path = bundles/vim-ps1
 	url = git://github.com/PProvost/vim-ps1.git
 	ignore = dirty
+[submodule "bundles/vim-puppet"]
+	path = bundles/vim-puppet
+	url = git://github.com/rodjek/vim-puppet.git
+	ignore = dirty
