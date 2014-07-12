@@ -70,3 +70,7 @@
 	path = bundles/mustache
 	url = git://github.com/mustache/vim-mustache-handlebars.git
 	ignore = dirty
+[submodule "bundles/vim-javascript"]
+	path = bundles/vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
+	ignore = dirty
