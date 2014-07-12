@@ -66,3 +66,7 @@
 	path = bundles/vim-puppet
 	url = git://github.com/rodjek/vim-puppet.git
 	ignore = dirty
+[submodule "bundles/mustache"]
+	path = bundles/mustache
+	url = git://github.com/mustache/vim-mustache-handlebars.git
+	ignore = dirty
