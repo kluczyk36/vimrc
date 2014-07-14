@@ -22,10 +22,6 @@
 	path = bundles/vim-localrc
 	url = git://github.com/thinca/vim-localrc
 	ignore = dirty
-[submodule "bundles/vim-ruby"]
-	path = bundles/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby
-	ignore = dirty
 [submodule "bundles/vim-unimpaired"]
 	path = bundles/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired
