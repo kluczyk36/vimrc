@@ -70,3 +70,23 @@
 	path = bundles/vim-javascript
 	url = git://github.com/pangloss/vim-javascript.git
 	ignore = dirty
+[submodule "bundles/vim-dispatch"]
+	path = bundles/vim-dispatch
+	url = git://github.com/tpope/vim-dispatch
+	ignore = dirty
+[submodule "bundles/syntastic"]
+	path = bundles/syntastic
+	url = https://github.com/scrooloose/syntastic
+	ignore = dirty
+[submodule "bundles/ctrlp"]
+	path = bundles/ctrlp
+	url = https://github.com/kien/ctrlp.vim
+	ignore = dirty
+[submodule "bundles/omnisharp"]
+	path = bundles/omnisharp
+	url = https://github.com/OmniSharp/omnisharp-vim
+	ignore = dirty
+[submodule "bundles/rust.vim"]
+	path = bundles/rust.vim
+	url = https://github.com/wting/rust.vim
+	ignore = dirty
