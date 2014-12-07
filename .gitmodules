@@ -90,3 +90,7 @@
 	path = bundles/rust.vim
 	url = https://github.com/wting/rust.vim
 	ignore = dirty
+[submodule "bundles/slimv"]
+	path = bundles/slimv
+	url = https://github.com/kovisoft/slimv
+	ignore = dirty
