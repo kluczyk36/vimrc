@@ -85,8 +85,8 @@ noremap l <NOP>
 nnoremap <Leader><Space> :nohls<CR>
 
 " move to matching parens
-nnoremap <Tab> %
-vnoremap <Tab> %
+nmap <Tab> %
+vmap <Tab> %
 
 nnoremap ; :
 
