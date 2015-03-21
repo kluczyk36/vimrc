@@ -24,9 +24,9 @@ hi ModeMsg                                      gui=bold
 hi MoreMsg      guifg=SeaGreen                  gui=bold
 hi NonText      guifg=DarkGreen                 gui=bold
 hi Normal       guifg=Gray       guibg=Black
-hi PreProc      guifg=DarkRed
+hi PreProc      guifg=#C53A3A
 hi Question     guifg=Green                     gui=bold
-hi Search       guifg=White      guibg=DarkRed  gui=bold
+hi Search       guifg=White      guibg=#C53A3A  gui=bold
 hi Special      guifg=Red
 hi SpecialKey   guifg=#444444
 hi Statement    guifg=Yellow                    gui=NONE
@@ -38,7 +38,7 @@ hi Type         guifg=Green                     gui=none
 hi Visual       guifg=White      guibg=DarkGreen
 hi WarningMsg   guifg=Red
 
-hi User1        guifg=DarkRed    guibg=Grey
+hi User1        guifg=#C53A3A    guibg=Grey
 
 hi Pmenu                         guibg=Brown
 
