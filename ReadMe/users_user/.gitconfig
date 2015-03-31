@@ -1,0 +1,8 @@
+[user]
+	name = kluczyk36 
+	email = kluczyk36@gmail.com
+[core]
+	autocrlf = true
+	excludesfile = C:\\Users\\Łukasz\\Documents\\gitignore_global.txt
+[ser]
+	name = kluczyk36

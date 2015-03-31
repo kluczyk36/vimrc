@@ -1,0 +1,371 @@
+# Ten plik viminfo zosta³ wygenerowany przez Vima 7.4.
+# Mo¿esz go ostro¿nie edytowaæ!
+
+# Wartoœæ 'encoding' w czasie zapisu tego pliku
+*encoding=cp1250
+
+
+# hlsearch on (H) or off (h):
+~h
+# Ostatni Wyszukiwany wzorzec:
+~MSle0~/p100
+
+# Ostatni Podstawienie Wyszukiwany wzorzec:
+~MSle0&\Repository\TheCatPlusPlus\vimrc
+
+# Wiersz poleceñ Historia (od najnowszych po najstarsze):
+:q
+:wq
+:tabe H:\config
+:e!
+:set autoread
+:tabe h:\config
+:tabe panels\
+:\p100
+:w
+:messages
+:h
+:vim -h
+:echo $MYVIMRC
+:echo $MYVUMRC
+:echo $HOME
+
+# Szukany ci¹g Historia (od najnowszych po najstarsze):
+?/p100
+
+# Wyra¿enie Historia (od najnowszych po najstarsze):
+
+# Wiersz wprowadzeñ Historia (od najnowszych po najstarsze):
+
+# Wiersz wprowadzeñ Historia (od najnowszych po najstarsze):
+
+# Rejestry:
+""1	LINE	0
+	9:16:32 VirTual: masz ca³kiem inny vimrc ni¿ ten domyœny, no nic pomyœlê póŸniej o tym jak to zrobiæ :)
+	19:22:42 ! Piotrek Skrok: Ten source wystarczy
+	19:23:01 ! Piotrek Skrok: Zrób :echo $HOME w vimie i tam _vimrc z tym daj
+	20:23:29 VirTual: pogra³em przed chwila w cobalta na padzie, fajna sprawa w 3 osoby graliœmy jedna na klaw i dwie na padach, super :<br>
+	20:24:37 VirTual: to tak zebym dobrze zrozumia³, kupiuje ca³a zawartoœæ repo zamieniaj¹c swojego vima Twoim
+	5162
+<20:24:57 VirTual: dalej wchodze w vimrc Twoje i daje œcie¿kê do _vimrc20:25:28 ! Piotrek Skrok: To repo gdzieœ sklonowaæ, niczego nie trzeba zastêpowaæ20:25:59 ! Piotrek Skrok: W vimie zrób :echo $HOME, i w tym katalogu zrób nowe _vimrc w którym dasz source œcie¿ka/do/repo/vimrc20:26:02 VirTual: ahm, a nie mo¿na wskazaæ œciezki do repo?20:26:05 VirTual: oki20:28:25 VirTual: zrobi³em w vimie :echo $HOME i zwórci³o mi œcie¿kê C:\Users\£ukasz wiêc tam daje _vimrc20:28:35 ! Piotrek Skrok: Mhm 20:30:27 VirTual: wpisa³em w tamtym _vimrc20:30:35 VirTual: g:\Repository\TheCatPlusPlus\vimrc ale nie dzia³a20:30:48 ! Piotrek Skrok: Tylko do pliku œcie¿ka20:31:01 VirTual: g:\Repository\TheCatPlusPlus\20:31:04 VirTual: tak równie¿20:31:38 ! Piotrek Skrok: W sensie ten vimrc na koñcu to musi byæ plik20:32:43 ! Piotrek Skrok: Jak zrobisz :echo $MYVIMRC to co pokazuje?20:34:14 VirTual: C:\Users\£ukasz\_vimrc20:34:43 ! Piotrek Skrok: No to ok, to coœ z tym source, g:\Repository\TheCatPlusPlus\vimrc to katalog czy plik?20:34:49 ! Piotrek Skrok: Bo nie jestem pewny jak sklonowa³eœ20:35:04 VirTual: chcia³em wskazaæ ten skopiowany z repo20:35:10 VirTual: vimrc to plik z Twojego repo20:35:17 VirTual: a reszta o œcie¿ka do repo20:35:47 ! Piotrek Skrok: No to powinno byæ ok, tylko tam jeszcze submodules s¹, wiêc trzeba git submodule update -i20:35:57 ! Piotrek Skrok: git submodule update --init20:36:16 ! Piotrek Skrok: I ew. source g:/Repository/TheCatPlusPlus/vimrc20:36:22 ! Piotrek Skrok: Jeœli nadal coœ mu nie pasuje20:36:29 ! Piotrek Skrok: W :messages powinny byæ b³êdy jakby coœ20:37:35 VirTual: Error detected while processing g:\Repository\TheCatPlusPlus\bundles\om<br>nisharp\plugin\OmniSharp.vim:<br><br>line  15:<br><br>E370: Could not load library python27.dll<br><br>E263: Sorry, this command is disabled, the Python library could not be <br>loaded.<br><br>line  16:<br><br>E370: Could not load library python27.dll<br><br>E263: Sorry, this command is disabled, the Python library could not be <br>loaded.<br><br>line  17:<br><br>E370: Could not load library python27.dll<br><br>E263: Sorry, this command is disabled, the Python library could not be <br>loaded.20:38:27 ! Piotrek Skrok: Pythona z dobrymi bitami zainstalowa³eœ?20:38:58 VirTual: 6420:38:59 VirTual: chyba20:39:10 ! Piotrek Skrok: Musi byæ taki sam jak vim20:39:18 VirTual: wiec 3220:39:19 VirTual: ok20:44:06 VirTual: ahm, dlatego nie dzia³a³o, a ja myœla³em ¿e to coœ ze wskazaniem :P20:44:10 VirTual: a to python :p20:45:50 VirTual: a co zrobi³o polecenie<br>git submodule update --init20:46:04 VirTual: bo coœ siê zrobi³o w sourcetree ale cgcia³bym wiedzieæ co :)20:46:30 ! Piotrek Skrok: Wszystkie pluginy œci¹ga co s¹ w .gitmodules zdefiniowane20:46:45 VirTual: ahm :D22:41:20 VirTual: wszystko spoko dzia³a, chcia³em jeszcze sobie zrobiæ gvima ¿eby zawsze z parametrem --remote-tab-silent siê uruchamia³22:41:22 VirTual: hmm22:43:13 VirTual: wszystko spoko dzia³a tylko nie wiem czemu jak odpalê gvima normalnie to jest taki snadardowy22:43:41 VirTual: a jak odpalê przez F4 na jakimœ pliku w total commander z poleceniem D:\Program Files (x86)\Vim\vim74\gvim.exe --remote-tab-silent22:43:49 VirTual: to dzia³a normalnie hmm22:43:53 ! Piotrek Skrok: Coœ siê nie ³aduje22:43:56 ! Piotrek Skrok: :messages sprawdŸ22:45:21 VirTual: Error detected while procesing GUIEnter Auto commands for &quot;*&quot;:<br>E364: Library cal filed for &quot;Maximalize()&quot;22:45:49 ! Piotrek Skrok: A, bo tam jest DLL 64-bitowy do automatycznej maksymalizacji okna22:46:10 ! Piotrek Skrok: W vimfiles/plugin czy coœ takiego22:46:14 VirTual: oki22:56:43 VirTual: dobra dzieki wielkie za pomoc, pozdrawiam, do jutra, :)22:56:48 ! Piotrek Skrok: Bye22:57:00 VirTual: lecê spaæ, mo¿e Ty te¿ idziesz? :P22:57:10 ! Piotrek Skrok: SG-1 ogl¹dam22:57:20 VirTual: haha, który sezon? :D22:57:30 ! Piotrek Skrok: Jakieœ losowe odcinki22:57:47 VirTual: ahm, mi³ego :)19:05:24 ! Piotrek Skrok: Jutro bêdziemy coœ grali ko³o 18 jakby co to wpadaj08:23:19 VirTual: kiedy by³o to jutro? :P08:23:32 VirTual: bo na WTW nie pokazuja mi siê daty ;p08:23:46 VirTual: odezwê siê po pracy ;)08:23:55 VirTual: idê na poczte po ledy z chin :D14:34:07 ! Piotrek Skrok: W sobotê :p21:22:23 VirTual: ahm, to za póŸno siê skuma³em :p21:31:41 ! Piotrek Skrok: Po 22 gdzieœ bêdziemy online w to graæ http://store.steampowered.com/app/26563021:34:08 VirTual: oj, ja ju¿ bêdê pewnie spa³ :p21:37:27 VirTual: rano do pracy, jadê wczesnie, aaa ledki do mnie przysz³y w koñcu z chin, przyp³yne³y :)21:37:48 VirTual: czekam na arduino a¿ przyjdzie i robiê ambilight :)21:37:55 VirTual: a co tam u Ciebie? :)21:42:46 ! Piotrek Skrok: Projekt jakoœ idzie21:43:17 ! Piotrek Skrok: Parê propozycji do usprawnienia pracy da³em w czwartek i chyba nawet wiêkszoœæ przejdzie21:45:58 VirTual: fajnie, ja teraz prawie tylko w zamówieniach siedzê i zarz¹dzam , pff nawet mam studenta praktykatna pod sob¹ i 3 innych pracowników :D21:59:07 VirTual: usuwam rzeczy z dropa21:59:27 VirTual: Ty ju¿ to zrobi³eœ czy wykupisz jakiœ pakiet?22:02:56 ! Piotrek Skrok: Backupy przenios³em a na inne rzeczy standard mi wystarczy22:06:12 VirTual: ok
+"2	LINE	0
+	                G4 P1000\n
+"3	CHAR	0
+	delta_current 1.5
+"4	CHAR	0
+	extruder.hotend.steps_per_mm 100
+"-	LINE	0
+	9:16:32 VirTual: masz ca³kiem inny vimrc ni¿ ten domyœny, no nic pomyœlê póŸniej o tym jak to zrobiæ :)
+	19:22:42 ! Piotrek Skrok: Ten source wystarczy
+	19:23:01 ! Piotrek Skrok: Zrób :echo $HOME w vimie i tam _vimrc z tym daj
+	20:23:29 VirTual: pogra³em przed chwila w cobalta na padzie, fajna sprawa w 3 osoby graliœmy jedna na klaw i dwie na padach, super :<br>
+	20:24:37 VirTual: to tak zebym dobrze zrozumia³, kupiuje ca³a zawartoœæ repo zamieniaj¹c swojego vima Twoim
+	5162
+<20:24:57 VirTual: dalej wchodze w vimrc Twoje i daje œcie¿kê do _vimrc20:25:28 ! Piotrek Skrok: To repo gdzieœ sklonowaæ, niczego nie trzeba zastêpowaæ20:25:59 ! Piotrek Skrok: W vimie zrób :echo $HOME, i w tym katalogu zrób nowe _vimrc w którym dasz source œcie¿ka/do/repo/vimrc20:26:02 VirTual: ahm, a nie mo¿na wskazaæ œciezki do repo?20:26:05 VirTual: oki20:28:25 VirTual: zrobi³em w vimie :echo $HOME i zwórci³o mi œcie¿kê C:\Users\£ukasz wiêc tam daje _vimrc20:28:35 ! Piotrek Skrok: Mhm 20:30:27 VirTual: wpisa³em w tamtym _vimrc20:30:35 VirTual: g:\Repository\TheCatPlusPlus\vimrc ale nie dzia³a20:30:48 ! Piotrek Skrok: Tylko do pliku œcie¿ka20:31:01 VirTual: g:\Repository\TheCatPlusPlus\20:31:04 VirTual: tak równie¿20:31:38 ! Piotrek Skrok: W sensie ten vimrc na koñcu to musi byæ plik20:32:43 ! Piotrek Skrok: Jak zrobisz :echo $MYVIMRC to co pokazuje?20:34:14 VirTual: C:\Users\£ukasz\_vimrc20:34:43 ! Piotrek Skrok: No to ok, to coœ z tym source, g:\Repository\TheCatPlusPlus\vimrc to katalog czy plik?20:34:49 ! Piotrek Skrok: Bo nie jestem pewny jak sklonowa³eœ20:35:04 VirTual: chcia³em wskazaæ ten skopiowany z repo20:35:10 VirTual: vimrc to plik z Twojego repo20:35:17 VirTual: a reszta o œcie¿ka do repo20:35:47 ! Piotrek Skrok: No to powinno byæ ok, tylko tam jeszcze submodules s¹, wiêc trzeba git submodule update -i20:35:57 ! Piotrek Skrok: git submodule update --init20:36:16 ! Piotrek Skrok: I ew. source g:/Repository/TheCatPlusPlus/vimrc20:36:22 ! Piotrek Skrok: Jeœli nadal coœ mu nie pasuje20:36:29 ! Piotrek Skrok: W :messages powinny byæ b³êdy jakby coœ20:37:35 VirTual: Error detected while processing g:\Repository\TheCatPlusPlus\bundles\om<br>nisharp\plugin\OmniSharp.vim:<br><br>line  15:<br><br>E370: Could not load library python27.dll<br><br>E263: Sorry, this command is disabled, the Python library could not be <br>loaded.<br><br>line  16:<br><br>E370: Could not load library python27.dll<br><br>E263: Sorry, this command is disabled, the Python library could not be <br>loaded.<br><br>line  17:<br><br>E370: Could not load library python27.dll<br><br>E263: Sorry, this command is disabled, the Python library could not be <br>loaded.20:38:27 ! Piotrek Skrok: Pythona z dobrymi bitami zainstalowa³eœ?20:38:58 VirTual: 6420:38:59 VirTual: chyba20:39:10 ! Piotrek Skrok: Musi byæ taki sam jak vim20:39:18 VirTual: wiec 3220:39:19 VirTual: ok20:44:06 VirTual: ahm, dlatego nie dzia³a³o, a ja myœla³em ¿e to coœ ze wskazaniem :P20:44:10 VirTual: a to python :p20:45:50 VirTual: a co zrobi³o polecenie<br>git submodule update --init20:46:04 VirTual: bo coœ siê zrobi³o w sourcetree ale cgcia³bym wiedzieæ co :)20:46:30 ! Piotrek Skrok: Wszystkie pluginy œci¹ga co s¹ w .gitmodules zdefiniowane20:46:45 VirTual: ahm :D22:41:20 VirTual: wszystko spoko dzia³a, chcia³em jeszcze sobie zrobiæ gvima ¿eby zawsze z parametrem --remote-tab-silent siê uruchamia³22:41:22 VirTual: hmm22:43:13 VirTual: wszystko spoko dzia³a tylko nie wiem czemu jak odpalê gvima normalnie to jest taki snadardowy22:43:41 VirTual: a jak odpalê przez F4 na jakimœ pliku w total commander z poleceniem D:\Program Files (x86)\Vim\vim74\gvim.exe --remote-tab-silent22:43:49 VirTual: to dzia³a normalnie hmm22:43:53 ! Piotrek Skrok: Coœ siê nie ³aduje22:43:56 ! Piotrek Skrok: :messages sprawdŸ22:45:21 VirTual: Error detected while procesing GUIEnter Auto commands for &quot;*&quot;:<br>E364: Library cal filed for &quot;Maximalize()&quot;22:45:49 ! Piotrek Skrok: A, bo tam jest DLL 64-bitowy do automatycznej maksymalizacji okna22:46:10 ! Piotrek Skrok: W vimfiles/plugin czy coœ takiego22:46:14 VirTual: oki22:56:43 VirTual: dobra dzieki wielkie za pomoc, pozdrawiam, do jutra, :)22:56:48 ! Piotrek Skrok: Bye22:57:00 VirTual: lecê spaæ, mo¿e Ty te¿ idziesz? :P22:57:10 ! Piotrek Skrok: SG-1 ogl¹dam22:57:20 VirTual: haha, który sezon? :D22:57:30 ! Piotrek Skrok: Jakieœ losowe odcinki22:57:47 VirTual: ahm, mi³ego :)19:05:24 ! Piotrek Skrok: Jutro bêdziemy coœ grali ko³o 18 jakby co to wpadaj08:23:19 VirTual: kiedy by³o to jutro? :P08:23:32 VirTual: bo na WTW nie pokazuja mi siê daty ;p08:23:46 VirTual: odezwê siê po pracy ;)08:23:55 VirTual: idê na poczte po ledy z chin :D14:34:07 ! Piotrek Skrok: W sobotê :p21:22:23 VirTual: ahm, to za póŸno siê skuma³em :p21:31:41 ! Piotrek Skrok: Po 22 gdzieœ bêdziemy online w to graæ http://store.steampowered.com/app/26563021:34:08 VirTual: oj, ja ju¿ bêdê pewnie spa³ :p21:37:27 VirTual: rano do pracy, jadê wczesnie, aaa ledki do mnie przysz³y w koñcu z chin, przyp³yne³y :)21:37:48 VirTual: czekam na arduino a¿ przyjdzie i robiê ambilight :)21:37:55 VirTual: a co tam u Ciebie? :)21:42:46 ! Piotrek Skrok: Projekt jakoœ idzie21:43:17 ! Piotrek Skrok: Parê propozycji do usprawnienia pracy da³em w czwartek i chyba nawet wiêkszoœæ przejdzie21:45:58 VirTual: fajnie, ja teraz prawie tylko w zamówieniach siedzê i zarz¹dzam , pff nawet mam studenta praktykatna pod sob¹ i 3 innych pracowników :D21:59:07 VirTual: usuwam rzeczy z dropa21:59:27 VirTual: Ty ju¿ to zrobi³eœ czy wykupisz jakiœ pakiet?22:02:56 ! Piotrek Skrok: Backupy przenios³em a na inne rzeczy standard mi wystarczy22:06:12 VirTual: ok
+
+# Zak³adki w plikach:
+'0  1  0  g:\Repository\ZMorph\ZMorph_zamowienia\Okablowanie\Dokumentacja\ver_2.2_Robtronik\Modele_3D\RS-linki.txt
+'1  1  0  g:\Repository\ZMorph\ZMorph_zamowienia\Okablowanie\Dokumentacja\ver_2.2_Robtronik\Modele_3D\ReadMe.txt
+'2  23  0  g:\Repository\ZMorph\ZMorph_zamowienia\Okablowanie\Dokumentacja\ver_2.2_Robtronik\Modele_3D\ReadMe.txt
+'3  1  0  G:\Repository\Praca_magisterska_ART\.git\config
+'4  10  20  G:\Repository\Praca_magisterska_ART\.git\config
+'5  113  92  g:\Repository\Smoothieware\ConfigSamples\Smoothieboard.Zmorph\Sunbeam_rev_ABC\config
+'6  2  5  g:\Repository\Electronic_projects\.gitignore
+'7  1  0  g:\Repository\Smoothieware\src\modules\utils\panel\screens\SelectToolheadScreen.cpp
+'8  333  55  g:\Repository\Smoothieware\src\modules\utils\panel\Panel.cpp
+'9  1  0  ~\Desktop\ambilight_2.png
+
+# Lista odniesieñ (pocz¹wszy od najnowszych):
+-'  1  0  g:\Repository\ZMorph\ZMorph_zamowienia\Okablowanie\Dokumentacja\ver_2.2_Robtronik\Modele_3D\RS-linki.txt
+-'  1  0  g:\Repository\ZMorph\ZMorph_zamowienia\Okablowanie\Dokumentacja\ver_2.2_Robtronik\Modele_3D\ReadMe.txt
+-'  23  0  g:\Repository\ZMorph\ZMorph_zamowienia\Okablowanie\Dokumentacja\ver_2.2_Robtronik\Modele_3D\ReadMe.txt
+-'  82  0  g:\Repository\ZMorph\ZMorph_zamowienia\Okablowanie\Dokumentacja\ver_2.2_Robtronik\Modele_3D\ReadMe.txt
+-'  83  0  g:\Repository\ZMorph\ZMorph_zamowienia\Okablowanie\Dokumentacja\ver_2.2_Robtronik\Modele_3D\ReadMe.txt
+-'  1  0  G:\Repository\Praca_magisterska_ART\.git\config
+-'  10  20  G:\Repository\Praca_magisterska_ART\.git\config
+-'  113  92  g:\Repository\Smoothieware\ConfigSamples\Smoothieboard.Zmorph\Sunbeam_rev_ABC\config
+-'  2  5  g:\Repository\Electronic_projects\.gitignore
+-'  1  0  g:\Repository\Smoothieware\src\modules\utils\panel\screens\SelectToolheadScreen.cpp
+-'  333  55  g:\Repository\Smoothieware\src\modules\utils\panel\Panel.cpp
+-'  73  0  g:\Repository\Smoothieware\src\modules\utils\panel\Panel.cpp
+-'  1  0  ~\Desktop\ambilight_2.png
+-'  1  0  g:\Repository\TheCatPlusPlus\vimfiles\plugin\maximize.cpp
+-'  1  0  g:\Repository\TheCatPlusPlus\vimfiles\plugin\maximize.vim
+-'  1  0  g:\Repository\TheCatPlusPlus\vimfiles\plugin\maximize.dll
+-'  1  0  d:\Program Files (x86)\Vim\vim74\rgb.txt
+-'  145  34  D:\Program Files (x86)\Vim\vim74\doc\help.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\doc\help.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\gvim_mod.exe.exe
+-'  1  0  D:\Program Files (x86)\Vim\_vimrc.
+-'  1  0  D:\Program Files (x86)\Vim\_vimrc
+-'  2  0  g:\Repository\TheCatPlusPlus\vimrc
+-'  1  0  c:\Users\UKASZ~1\.gitconfig
+-'  1  0  g:\Repository\TheCatPlusPlus\vimrc
+-'  1  35  ~\_vimrc
+-'  16  0  g:\Repository\TheCatPlusPlus\vimrc
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+-'  1  0  D:\Program Files (x86)\Vim\vim74\README.txt
+
+# Historia zak³adek w plikach (od najnowszych po najstarsze):
+
+> g:\Repository\ZMorph\ZMorph_zamowienia\Okablowanie\Dokumentacja\ver_2.2_Robtronik\Modele_3D\RS-linki.txt
+	"	1	0
+
+> g:\Repository\ZMorph\ZMorph_zamowienia\Okablowanie\Dokumentacja\ver_2.2_Robtronik\Modele_3D\ReadMe.txt
+	"	1	0
+	^	23	0
+	.	1	0
+	+	83	0
+	+	82	0
+	+	82	111
+	+	83	46
+	+	83	74
+	+	83	138
+	+	83	112
+	+	1	0
+
+> ~\Desktop\test.xml
+	"	1	0
+
+> G:\Repository\Praca_magisterska_ART\.git\config
+	"	1	0
+
+> g:\Repository\Smoothieware\ConfigSamples\Smoothieboard.Zmorph\Sunbeam_rev_ABC\config
+	"	113	92
+
+> g:\Repository\Electronic_projects\.gitignore
+	"	2	5
+	^	2	5
+	.	2	4
+	+	2	0
+	+	1	4
+	+	2	4
+
+> g:\Repository\Smoothieware\src\modules\utils\panel\screens\SelectToolheadScreen.cpp
+	"	1	0
+	^	125	0
+	.	120	88
+	+	116	29
+	+	120	91
+	+	116	1
+	+	120	114
+	+	125	90
+	+	130	287
+	+	135	143
+	+	135	0
+	+	140	89
+	+	145	136
+	+	131	0
+	+	131	0
+	+	129	0
+	+	120	53
+	+	125	54
+	+	135	54
+	+	140	55
+	+	145	105
+	+	140	98
+	+	135	97
+	+	130	80
+	+	125	98
+	+	120	99
+	+	130	241
+	+	131	0
+	+	130	270
+	+	130	54
+	+	130	88
+	+	130	54
+	+	130	54
+	+	130	61
+	+	130	59
+	+	130	82
+	+	130	92
+	+	130	91
+	+	130	84
+	+	130	84
+	+	130	98
+	+	130	98
+	+	130	66
+	+	130	50
+	+	130	49
+	+	130	61
+	+	130	61
+	+	130	34
+	+	130	27
+	+	130	34
+	+	130	34
+	+	130	66
+	+	130	66
+	+	130	66
+	+	130	32
+	+	130	32
+	+	130	32
+	+	130	59
+	+	130	32
+	+	130	73
+	+	130	32
+	+	130	22
+	+	120	33
+	+	120	34
+	+	120	32
+	+	120	57
+	+	120	32
+	+	120	72
+	+	125	33
+	+	125	34
+	+	125	32
+	+	125	57
+	+	125	32
+	+	125	72
+	+	135	27
+	+	135	33
+	+	135	34
+	+	135	32
+	+	135	57
+	+	135	32
+	+	135	72
+	+	140	33
+	+	140	34
+	+	140	32
+	+	140	57
+	+	140	32
+	+	140	72
+	+	145	34
+	+	145	34
+	+	145	32
+	+	145	59
+	+	145	32
+	+	130	0
+	+	130	0
+	+	120	45
+	+	125	45
+	+	126	0
+	+	125	45
+	+	135	45
+	+	140	88
+	+	135	88
+	+	125	88
+	+	120	88
+
+> g:\Repository\Smoothieware\src\modules\utils\panel\Panel.cpp
+	"	333	55
+
+> g:\Repository\Smoothieware\src\modules\utils\panel\screens\PrepareScreen.cpp
+	"	86	35
+
+> h:\config
+	"	62	0
+	^	87	21
+	.	87	20
+	+	87	20
+	+	72	58
+	+	65	34
+	+	72	18
+	+	87	20
+
+> g:\Repository\Smoothieware\src\modules\utils\panel\NERD_tree_1
+	"	29	8
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> g:\Repository\TheCatPlusPlus\vimfiles\plugin\maximize.cpp
+	"	1	0
+
+> g:\Repository\TheCatPlusPlus\vimfiles\plugin\maximize.vim
+	"	1	0
+
+> g:\Repository\TheCatPlusPlus\vimfiles\plugin\maximize.dll
+	"	1	0
+
+> d:\Program Files (x86)\Vim\vim74\rgb.txt
+	"	1	0
+
+> D:\Program Files (x86)\Vim\vim74\doc\help.txt
+	"	145	34
+
+> d:\Program Files (x86)\Vim\_vimrc
+	"	1	0
+
+> g:\Repository\TheCatPlusPlus\vimrc
+	"	2	0
+
+> c:\Users\UKASZ~1\.gitconfig
+	"	1	0
+
+> ~\_vimrc
+	"	1	35
+	^	1	36
+	.	1	35
+	+	1	35
+
+> D:\Program Files (x86)\Vim\vim74\README.txt
+	"	1	0
