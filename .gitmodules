@@ -78,7 +78,3 @@
 	path = bundles/rust.vim
 	url = https://github.com/wting/rust.vim
 	ignore = dirty
-[submodule "bundles/vim-niji"]
-	path = bundles/vim-niji
-	url = git://github.com/amdt/vim-niji.git
-	ignore = dirty
