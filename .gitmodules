@@ -30,14 +30,6 @@
 	path = bundles/tabular
 	url = git://github.com/godlygeek/tabular
 	ignore = dirty
-[submodule "bundles/ghcmod-vim"]
-	path = bundles/ghcmod-vim
-	url = git://github.com/eagletmt/ghcmod-vim
-	ignore = dirty
-[submodule "bundles/neco-ghc"]
-	path = bundles/neco-ghc
-	url = git://github.com/ujihisa/neco-ghc
-	ignore = dirty
 [submodule "bundles/vim-json"]
 	path = bundles/vim-json
 	url = git://github.com/leshill/vim-json
