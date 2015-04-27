@@ -78,3 +78,6 @@
 	path = bundles/rust.vim
 	url = https://github.com/wting/rust.vim
 	ignore = dirty
+[submodule "bundles/vim-systemd-syntax"]
+	path = bundles/vim-systemd-syntax
+	url = https://github.com/Matt-Deacalion/vim-systemd-syntax.git
