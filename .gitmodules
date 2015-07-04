@@ -58,10 +58,6 @@
 	path = bundles/mustache
 	url = git://github.com/mustache/vim-mustache-handlebars.git
 	ignore = dirty
-[submodule "bundles/vim-javascript"]
-	path = bundles/vim-javascript
-	url = git://github.com/pangloss/vim-javascript.git
-	ignore = dirty
 [submodule "bundles/vim-dispatch"]
 	path = bundles/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch
@@ -81,3 +77,8 @@
 [submodule "bundles/vim-systemd-syntax"]
 	path = bundles/vim-systemd-syntax
 	url = https://github.com/Matt-Deacalion/vim-systemd-syntax.git
+	ignore = dirty
+[submodule "bundles\\yajs.vim"]
+	path = bundles\\yajs.vim
+	url = https://github.com/othree/yajs.vim.git
+	ignore = dirty
