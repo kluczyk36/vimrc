@@ -78,7 +78,11 @@
 	path = bundles/vim-systemd-syntax
 	url = https://github.com/Matt-Deacalion/vim-systemd-syntax.git
 	ignore = dirty
-[submodule "bundles\\yajs.vim"]
-	path = bundles\\yajs.vim
+[submodule "bundles/yajs.vim"]
+	path = bundles/yajs.vim
 	url = https://github.com/othree/yajs.vim.git
+	ignore = dirty
+[submodule "bundles/vim-freepascal"]
+	path = bundles/vim-freepascal
+	url = https://github.com/boeckmann/vim-freepascal
 	ignore = dirty
