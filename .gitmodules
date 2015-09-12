@@ -118,3 +118,7 @@
 	path = bundles/julia-vim
 	url = https://github.com/JuliaLang/julia-vim
 	ignore = dirty
+[submodule "bundles/vimerl"]
+	path = bundles/vimerl
+	url = https://github.com/jimenezrick/vimerl
+	ignore = dirty
