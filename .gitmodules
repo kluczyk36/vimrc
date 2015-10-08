@@ -114,10 +114,6 @@
 	path = bundles/vim-addon-errorformats
 	url = https://github.com/MarcWeber/vim-addon-errorformats
 	ignore = dirty
-[submodule "bundles/julia-vim"]
-	path = bundles/julia-vim
-	url = https://github.com/JuliaLang/julia-vim
-	ignore = dirty
 [submodule "bundles/vimerl"]
 	path = bundles/vimerl
 	url = https://github.com/jimenezrick/vimerl
