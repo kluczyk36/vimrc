@@ -58,10 +58,6 @@
 	path = bundles/mustache
 	url = git://github.com/mustache/vim-mustache-handlebars.git
 	ignore = dirty
-[submodule "bundles/vim-javascript"]
-	path = bundles/vim-javascript
-	url = git://github.com/pangloss/vim-javascript.git
-	ignore = dirty
 [submodule "bundles/vim-dispatch"]
 	path = bundles/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch
@@ -77,4 +73,48 @@
 [submodule "bundles/rust.vim"]
 	path = bundles/rust.vim
 	url = https://github.com/wting/rust.vim
+	ignore = dirty
+[submodule "bundles/vim-systemd-syntax"]
+	path = bundles/vim-systemd-syntax
+	url = https://github.com/Matt-Deacalion/vim-systemd-syntax.git
+	ignore = dirty
+[submodule "bundles/yajs.vim"]
+	path = bundles/yajs.vim
+	url = https://github.com/othree/yajs.vim.git
+	ignore = dirty
+[submodule "bundles/vim-freepascal"]
+	path = bundles/vim-freepascal
+	url = https://github.com/boeckmann/vim-freepascal
+	ignore = dirty
+[submodule "bundles/vim-addon-nix"]
+	path = bundles/vim-addon-nix
+	url = https://github.com/MarcWeber/vim-addon-nix
+	ignore = dirty
+[submodule "bundles/vim-addon-mw-utils"]
+	path = bundles/vim-addon-mw-utils
+	url = https://github.com/marcweber/vim-addon-mw-utils
+	ignore = dirty
+[submodule "bundles/tlib"]
+	path = bundles/tlib
+	url = https://github.com/tomtom/tlib_vim
+	ignore = dirty
+[submodule "bundles/vim-addon-actions"]
+	path = bundles/vim-addon-actions
+	url = https://github.com/MarcWeber/vim-addon-actions
+	ignore = dirty
+[submodule "bundles/vim-addon-completion"]
+	path = bundles/vim-addon-completion
+	url = https://github.com/MarcWeber/vim-addon-completion
+	ignore = dirty
+[submodule "bundles/vim-addon-goto-thing-at-cursor"]
+	path = bundles/vim-addon-goto-thing-at-cursor
+	url = https://github.com/MarcWeber/vim-addon-goto-thing-at-cursor
+	ignore = dirty
+[submodule "bundles/vim-addon-errorformats"]
+	path = bundles/vim-addon-errorformats
+	url = https://github.com/MarcWeber/vim-addon-errorformats
+	ignore = dirty
+[submodule "bundles/vimerl"]
+	path = bundles/vimerl
+	url = https://github.com/jimenezrick/vimerl
 	ignore = dirty
