@@ -122,3 +122,7 @@
 	path = bundles/vim-racer
 	url = https://github.com/racer-rust/vim-racer
 	ignore = dirty
+[submodule "bundles/editorconfig-vim"]
+	path = bundles/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
+	ignore = dirty
