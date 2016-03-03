@@ -126,3 +126,7 @@
 	path = bundles/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
 	ignore = dirty
+[submodule "bundles/csv"]
+	path = bundles/csv
+	url = https://github.com/chrisbra/csv.vim
+	ignore = dirty
