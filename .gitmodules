@@ -134,3 +134,7 @@
 	path = bundles/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
 	ignore = dirty
+[submodule "bundles/vim-antlr"]
+	path = bundles/vim-antlr
+	url = https://github.com/dylon/vim-antlr
+	ignore = dirty
