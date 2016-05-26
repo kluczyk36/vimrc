@@ -118,3 +118,23 @@
 	path = bundles/vimerl
 	url = https://github.com/jimenezrick/vimerl
 	ignore = dirty
+[submodule "bundles/vim-racer"]
+	path = bundles/vim-racer
+	url = https://github.com/racer-rust/vim-racer
+	ignore = dirty
+[submodule "bundles/editorconfig-vim"]
+	path = bundles/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
+	ignore = dirty
+[submodule "bundles/csv"]
+	path = bundles/csv
+	url = https://github.com/chrisbra/csv.vim
+	ignore = dirty
+[submodule "bundles/vim-coffee-script"]
+	path = bundles/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+	ignore = dirty
+[submodule "bundles/vim-antlr"]
+	path = bundles/vim-antlr
+	url = https://github.com/dylon/vim-antlr
+	ignore = dirty

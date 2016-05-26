@@ -5,6 +5,7 @@ set mousemodel=popup
 set selectmode=mouse
 set keymodel=
 set backspace=indent,eol,start
+set virtualedit=
 
 if has('gui')
     set mouse=a
